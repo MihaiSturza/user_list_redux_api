@@ -1,0 +1,156 @@
+body {
+  margin: 0;
+  padding: 0 !important;
+  font-family: Roboto, sans-serif;
+}
+
+.app {
+  text-align: center;
+  width: 50%;
+  margin: auto;
+  border-left: 1px solid gray;
+  border-right: 1px solid gray;
+  min-height: 100vh;
+}
+
+.add-btn {
+ float: right;
+ right: 40px;
+ top: 50%;
+ transform: translateY(-50%);
+
+}
+
+
+.add-btn-left {
+ float: left;
+ left: 40px;
+ top: 50%;
+ transform: translateY(-50%);
+
+}
+
+.header {
+   height: 80px;
+   position: relative;
+   border-bottom: 1px solid gray;
+}
+
+.title {
+  display: block;
+  position: absolute;
+  letter-spacing: .15rem;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 1.5rem;
+}
+
+
+.modal-title {
+  height: 70px;
+  line-height: 70px;
+  text-align: center;
+  letter-spacing: .15rem;
+  font-size: 1.5rem;
+}
+
+.modal-text {
+  height: 100%;
+  padding: 0 10%;
+  background-color: white;
+}
+
+.modal-btn-left {
+  float: left;
+  left: 30px;
+}
+.modal-btn-right {
+  float: right;
+  right: 30px;
+}
+
+.contain-modal-btn {
+  padding-top: 50px;
+  width: 70%;
+  margin: auto;
+}
+
+.contain-modal-btn2 {
+  width: 70%;
+  margin: -20px auto 0;
+  padding-top: 20px;
+}
+
+
+.list-style {
+  width: 90%;
+ 
+}
+.list-style:hover {
+  background-color: rgb(238, 236, 236);
+  cursor: pointer;
+}
+
+.new-form {
+  text-align: center;
+  transform: scale(1.1);
+}
+
+.user-details {
+  height: 40px;
+  width: 70%;
+  margin: auto;
+  line-height: 30px;
+  font-size: 1.2rem;
+  padding-bottom: 60px;
+}
+
+.user-detail {
+  height: 40px;
+  width: 70%;
+  margin: auto;
+  line-height: 30px;
+  font-size: 1.2rem;
+  padding-bottom: 10px;
+}
+
+.user-no-details {
+  margin: 0 50px 50px 50px;
+  padding-top: 100px;
+  line-height: 30px;
+}
+
+
+.modal-btn-back {
+position: absolute;
+top: 10px;
+margin-left: 40px;
+}
+
+.text-field {
+  width: 60%;
+}
+
+.alert {
+  color: red;
+}
+
+
+.modal-btn {
+  margin-top: -10px;
+}
+
+.welcome-form {
+  height: 80px;
+  overflow: hidden;
+}
+
+
+.user-details-container {
+  border: 1px solid gray;
+  margin: 20px;
+  padding: 15px 0;
+  border-radius: 7px;
+  background-color: rgb(238, 235, 235);
+}
